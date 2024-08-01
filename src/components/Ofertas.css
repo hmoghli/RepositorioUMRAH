@@ -1,0 +1,116 @@
+/* Estilo global del body */
+body {
+    background: linear-gradient(to bottom right, #1a1a1a, #4a4a4a); /* Gradiente moderno de gris oscuro */
+    color: #f8f9fa; /* Color de texto claro para contraste */
+    font-family: 'Arial', sans-serif; /* Fuente base */
+}
+
+/* Estilo para el navbar */
+.navbar {
+    position: relative;
+    z-index: 1000; /* Asegura que el navbar esté encima del fondo */
+}
+
+.nav-link.custom-style {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.nav-link.custom-style:hover {
+    color: #c70039; /* Color de texto al pasar el ratón por encima */
+}
+
+/* Estilo para el título principal */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #e0e0e0; /* Color de texto más tenue */
+}
+
+/* Estilo para las tarjetas */
+.card {
+    overflow: hidden;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de tarjeta más suave */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-bottom: 2px solid #f8f9fa; /* Línea inferior para separación visual */
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-text {
+    color: #000000; /* Color de texto para contraste */
+}
+
+/* Estilo para el contenedor de tickets */
+.ticket {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.ticket-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer .text-center {
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #c70039; /* Color al pasar el ratón por encima */
+}
