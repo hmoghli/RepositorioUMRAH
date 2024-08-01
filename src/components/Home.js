@@ -12,7 +12,7 @@ const Home = () => {
         className="container-fluid container1 d-flex justify-content-center align-items-center text-center"
         style={{
           height: '75vh',
-          backgroundImage: 'url(/images/imagen11.jpg)',
+          backgroundImage: 'url(/images/imagen12.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
