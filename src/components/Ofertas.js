@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import './Ofertas.css'; // Asegúrate de que la ruta sea correcta
+/*import './article.css'; // Importa el archivo CSS personalizado */
 
 const Oferta = () => {
   return (

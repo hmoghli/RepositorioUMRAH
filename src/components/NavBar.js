@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from './logo.png'; // Asegúrate de que la ruta sea correcta
+/*import './article.css'; // Importa el archivo CSS personalizado */
 
 const NavBar = () => {
   return (
@@ -22,16 +23,16 @@ const NavBar = () => {
               <Link className="nav-link" to="/ofertas">Ofertas</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/gallery">Galeria</Link>
+              <Link className="nav-link" to="/ofertas">Galeria</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/home">Guia de la umrah</Link>
+              <Link className="nav-link" to="/guia_umrah">Guia de la umrah</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/ofertas">Contáctanos</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/gallery">Destinos</Link>
+              <Link className="nav-link" to="/ofertas">Destinos</Link>
             </li>
           </ul>
         </div>

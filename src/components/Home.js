@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './About'; // Importa el nuevo componente
 import ImageGallery from './ImageGallery'; // Ajusta la ruta según tu estructura
 import Form from './Form';
+/*import './article.css'; // Importa el archivo CSS personalizado */
 
 const Home = () => {
   return (

@@ -3,6 +3,7 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import Container from '@mui/material/Container';
 import { styled } from '@mui/material/styles';
+/*import './article.css'; // Importa el archivo CSS personalizado */
 
 const StyledContainer = styled(Container)(({ theme }) => ({
   textAlign: 'center',

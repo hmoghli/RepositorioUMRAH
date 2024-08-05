@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+/*import './article.css'; // Importa el archivo CSS personalizado */
 
 const Hero = () => {
   return (

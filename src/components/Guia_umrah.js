@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-/*import './article.css'; // Importa el archivo CSS personalizado */
-const About = () => {
+import ActionAreaCard from './ActionAreaCard'; // Asegúrate de que la ruta sea correcta
+import Article from './Article'; // Asegúrate de que la ruta sea correcta
+const Guia_umrah = () => {
   return (
     <div className="container py-5 about-container">
       <div className="row">
@@ -13,10 +14,13 @@ const About = () => {
           <p className="text-center about-paragraph">
             Contamos con años de experiencia en la industria del turismo religioso y ofrecemos paquetes personalizados para adaptarnos a sus necesidades específicas. Desde la reserva de vuelos y alojamientos hasta la organización de visitas guiadas y transporte, nos aseguramos de que cada aspecto de su viaje sea manejado con el máximo cuidado y atención.
           </p>
+          <ActionAreaCard/>
+          
         </div>
       </div>
     </div>
+    
   );
 };
 
-export default About;
+export default Guia_umrah;
