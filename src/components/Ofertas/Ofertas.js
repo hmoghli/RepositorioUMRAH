@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 /*import './article.css'; // Importa el archivo CSS personalizado */
 
+
 const Oferta = () => {
   return (
     <>
@@ -96,7 +97,7 @@ const Oferta = () => {
           {<div className="col">
             <div className="card h-100 clickable-card" data-url="Agosto-Madrid.html">
               <img src="images/meca5.jpg" className="card-img-top" alt="..." />
-              <div className="card-body">
+              <div className="card-body ">
                 <h5 className="card-title fw-bold">Agosto Madrid</h5>
                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               </div>

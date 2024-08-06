@@ -1,0 +1,59 @@
+/* Gallery.css */
+
+/* Contenedor de la galería */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  /* Elementos individuales de la galería */
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    height: 350px; /* Define una altura fija para los contenedores de las imágenes */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+    position: relative; /* Posiciona relativo para manejar el overlay */
+    transition: transform 0.3s ease; /* Transición suave para efectos */
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+  }
+  
+  /* Imágenes dentro de los elementos de la galería */
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor sin distorsión */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Estilo para el modal */
+  .custom-modal .modal-dialog {
+    max-width: 90vw; /* Ajusta el ancho máximo del modal */
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+  
+  .custom-modal .modal-content {
+    border: none; /* Elimina el borde del modal */
+    box-shadow: none; /* Elimina la sombra del modal */
+    background: transparent; /* Elimina el fondo blanco del modal */
+  }
+  
+  .custom-modal .modal-body {
+    padding: 0; /* Elimina el padding predeterminado en el cuerpo del modal */
+    overflow: hidden; /* Evita el scroll en el cuerpo del modal */
+    display: flex;
+    justify-content: center; /* Centra la imagen en el modal */
+    align-items: center; /* Centra la imagen verticalmente */
+    background: transparent; /* Asegura que el fondo sea transparente */
+  }
+  
+  .custom-modal .modal-img {
+    max-width: 100%; /* Asegura que la imagen ocupe todo el ancho del modal */
+    max-height: 80vh; /* Limita la altura máxima de la imagen para que se ajuste dentro del modal */
+    object-fit: contain; /* Mantiene la imagen completa dentro del modal */
+  }
+  

@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ActionAreaCard from './ActionAreaCard'; // Asegúrate de que la ruta sea correcta
-import Article from './Article'; // Asegúrate de que la ruta sea correcta
+import ActionAreaCard from '../ActionAreaCard'; // Asegúrate de que la ruta sea correcta
 const Guia_umrah = () => {
   return (
     <div className="container py-5 about-container">
