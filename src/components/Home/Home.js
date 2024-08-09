@@ -37,10 +37,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+      
       <About />
       <div className="my-5">
         <ImageGallery />
       </div>
+     
       <div className="my-5">
         <Form />
       </div>

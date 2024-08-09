@@ -29,7 +29,7 @@ const NavBar = () => {
               <Link className="nav-link" to="/guia_umrah">Guia de la umrah</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/ofertas">Contáctanos</Link>
+              <Link className="nav-link" to="/contáctanos">Contáctanos</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/ofertas">Destinos</Link>

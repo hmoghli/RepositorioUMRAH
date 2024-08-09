@@ -6,99 +6,30 @@ html, body {
   background-color: #fe0e0ef3;
 }
 #root {
-  display: flex;
-  background-color: #000000;
-  flex-direction: column;
-  min-height: 100vh; /* Asegura que el contenedor principal ocupe al menos toda la altura de la ventana */
-}
 
+  background-color: #000000;
+  color: #ffffff;
+}
+  
 /* Estilo para el título principal */
-h1 {
+h1,h2,h3,h4,h5{
   color: #ffffff; /* Color del título principal */
   text-align: center;
   margin-bottom: 20px;
 }
 
 /* Estilo para los párrafos */
-p {
-  text-align: center;
-  color: #e0e0e0; /* Color de texto más tenue */
+ p {
+  text-align: left;
+  color: #ececec; /* Color de texto más tenue */
 }
-
-/* Estilo para las tarjetas */
-.card {
-  overflow: hidden;
-  border: none;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de tarjeta más suave */
-}
-
-.card-img-top {
-  height: 200px;
-  object-fit: cover;
-  transition: transform 0.3s ease; /* Transición suave para el hover */
-  border-bottom: 2px solid #f8f9fa; /* Línea inferior para separación visual */
-}
-
-.card:hover .card-img-top {
-  transform: scale(1.05); /* Zoom al pasar el ratón sobre la imagen */
-}
-
-.card-body {
-  padding: 15px;
-}
-
-.card-title {
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.card-text {
-  color: #000000; /* Color de texto para contraste dentro de la tarjeta */
-}
-
-/* Estilo para el contenedor de tickets */
-.ticket {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-}
-
-.ticket-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+.card-body p {
+  text-align: left;
+  color: #000000; /* Color de texto más tenue */
 }
 
 
-/* Estilos aplicados a los artículos */
-.article-container {
-  color: #eaeaea;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-family: "exo 2", segoe ui, Roboto, Oxygen-Sans, Ubuntu, Cantarell, helvetica neue, sans-serif;
-  box-sizing: inherit;
-  margin: 0;
-  box-shadow: 0 0 10px rgba(0,0,0,.15);
-  border-radius: 20px;
-  transform: translateY(0) scale(1);
-  transition: all ease-in-out 200ms; /* Transición suave para todos los cambios */
-}
 
-/* Estilos específicos para la imagen y el enlace de los artículos */
-.article-image img {
-  width: 100%;
-  border-radius: 20px 20px 0 0; /* Bordes redondeados en la parte superior */
-}
 
-.article-title a {
-  text-decoration: none;
-  color: #0693e3; /* Color del enlace del título del artículo */
-}
 
-.article-content {
-  padding: 15px;
-}
+
